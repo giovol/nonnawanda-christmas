@@ -1,0 +1,23 @@
+.intestazione {
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.principale-trasparente {
+    font-family: "Verdana";
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    padding:1%
+}
+
+body {
+    background-image: url("img/texture.jpg");
+}
+
+.trasparente {
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    margin-bottom: 5px;
+}
