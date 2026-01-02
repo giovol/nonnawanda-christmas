@@ -11,58 +11,56 @@
     <title>Home page | Hotel Nonna Wanda</title>
 </head>
 
-<body>
+<body class="body-natalizio">
     <div class="trasparente">
         <h1 id="intestazione" style="font-size:80px; margin-bottom: 0">Hotel Nonna Wanda</h1>
         <h4 id="intestazione" style="font-size:20px; margin-top: 5px">La tua presenza è la cosa più preziosa!</h4>
     </div>
-    <table class="tabella-testo">
-        <tr>
-            <td class="trasparente">
-                <p class="titolo-testo">
-                    L'atmosfera che scalda il cuore
-                </p>
-                <p class="testo">
-                    All’Hotel Nonna Wanda, il Natale non è solo una data sul calendario, ma un profumo di cannella che
-                    si
-                    diffonde nelle sale, il crepitio del camino acceso e il piacere di ritrovarsi. Qui, la tradizione
-                    incontra
-                    l'ospitalità più autentica, per regalarvi un soggiorno dove ogni dettaglio parla di famiglia e
-                    dedizione.
-                </p>
-            </td>
-            <td class="trasparente">
-                <p class="titolo-testo" style="padding-left: 10px;">
-                    I nostri servizi:
-                </p>
-                <ul class="testo" style="margin-left: 10px;">
-                    <li>Colazione buffet</li>
-                    <li>Salotto con camino</li>
-                    <li>Connessione Wi-Fi Gratuita</li>
-                    <li>Servizio di pulizia della camera ogni giorno</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
     <div class="trasparente">
-        <p class="titolo-testo">Galleria</p>
+        <p class="titolo-testo">
+            L'atmosfera che scalda il cuore
+        </p>
+        <p class="testo">
+            All'Hotel Nonna Wanda, il Natale non è solo una data sul calendario, ma un profumo di cannella che
+            si
+            diffonde nelle sale, il crepitio del camino acceso e il piacere di ritrovarsi. Qui, la tradizione
+            incontra
+            l'ospitalità più autentica, per regalarvi un soggiorno dove ogni dettaglio parla di famiglia e
+            dedizione.
+        </p>
+    </div>
+    <div class="trasparente">
+        <p class="titolo-testo" style="padding-left: 10px;">
+            I nostri servizi:
+        </p>
+        <ul class="testo" style="margin-left: 10px;">
+            <li>Colazione buffet</li>
+            <li>Salotto con camino</li>
+            <li>Connessione Wi-Fi Gratuita</li>
+            <li>Servizio di pulizia della camera ogni giorno</li>
+        </ul>
         <table class="galleria" align="center">
             <tr>
                 <td>
                     <figure>
-                        <img class="immagine-galleria" src="img/camera.jpg" width="300" height="200" alt="interni">
+                        <a href="servizi.html">
+                            <img class="immagine-galleria" src="img/camera.jpg" height="200" alt="interni">
+                        </a>
                         <figcaption>I nostri interni</figcaption>
                     </figure>
                 </td>
                 <td>
                     <figure>
-                        <img class="immagine-galleria" src="img/buffet.jpg" width="300" height="200" alt="buffet">
+                        <a href="servizi.html">
+                            <img class="immagine-galleria" src="img/buffet.jpg" height="200" alt="buffet">
+                        </a>
                         <figcaption>Il servizio del buffet</figcaption>
                     </figure>
                 </td>
             </tr>
         </table>
     </div>
+
 
     <div class="trasparente">
         <p class="titolo-testo">La città di Treviso</p>
@@ -80,13 +78,17 @@
             <tr>
                 <td>
                     <figure>
-                        <img class="immagine-galleria" src="img/piazza.jpg" width="300" height="200" alt="interni">
+                        <a href="treviso.html#piazza">
+                            <img class="immagine-galleria" src="img/piazza.jpg" height="200" alt="Piazza dei Signori">
+                        </a>
                         <figcaption>Piazza dei Signori, molto vicina al nostro hotel</figcaption>
                     </figure>
                 </td>
                 <td>
                     <figure>
-                        <img class="immagine-galleria" src="img/duomo.jpg" width="300" height="200" alt="buffet">
+                        <a href="treviso.html#duomo">
+                            <img class="immagine-galleria" src="img/duomo.jpg" height="200" alt="buffet">
+                        </a>
                         <figcaption>Il Duomo di Treviso</figcaption>
                     </figure>
                 </td>
@@ -94,17 +96,54 @@
         </table>
     </div>
     <div class="trasparente">
-        <p class="titolo-testo">I nostri prezzi</p>
-        <table id="tabella-prezzi" border="5">
+        <p class="titolo-testo">I nostri prezzi per le vacanze</p>
+        <table id="tabella-prezzi" border="5" bordercolor="white">
             <tr>
-                <th>Camera suite</th>
-                <th>Camera normale</th>
+                <td>Periodo</td>
+                <td>Doppia Standard (a notte)</td>
+                <td>Junior Suite (a notte)</td>
+                <td>Eventi / Note</td>
             </tr>
             <tr>
-                <td>100€ a notte</td>
-                <td>200€ a notte</td>
+                <th>20 Nov - 05 Dic</th>
+                <td>€ 85 - € 95</td>
+                <td>€ 115 - € 130</td>
+                <td>Mercatini Natalizi</td>
+            </tr>
+            <tr>
+                <th>06 Dic - 10 Dic</th>
+                <td>€ 100 - € 120</td>
+                <td>€ 140 - € 160</td>
+                <td>Ponte dell'Immacolata</td>
+            </tr>
+            <tr>
+                <th>11 Dic - 23 Dic</th>
+                <td>€ 90 - € 110</td>
+                <td>€ 125 - € 145</td>
+                <td>Shopping natalizio</td>
+            </tr>
+            <tr>
+                <th>24 Dic - 26 Dic</th>
+                <td>€ 130 - € 150</td>
+                <td>€ 170 - € 195</td>
+                <td>Natale e S. Stefano</td>
+            </tr>
+            <tr>
+                <th>27 Dic - 30 Dic</th>
+                <td>€ 110 - € 130</td>
+                <td>€ 150 - € 175</td>
+                <td>Relax pre-Capodanno</td>
+            </tr>
+            <tr>
+                <th>31 Dic - 02 Gen</th>
+                <td>€ 160 - € 190</td>
+                <td>€ 210 - € 250</td>
+                <td>Capodanno (Min. 2 notti)</td>
             </tr>
         </table>
+        <br>
+        <a style="text-align: center; margin:auto" class="testo" href="prezzi.html#tabella-prezzi">Clicca qui per vedere i prezzi per maggiori informazioni sui prezzi</a>
+
     </div>
 </body>
 

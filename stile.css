@@ -5,7 +5,7 @@
     padding-bottom: 8px;
 }
 
-body {
+.body-natalizio {
     background-image: url("img/texture.jpg");
 }
 
@@ -14,21 +14,24 @@ body {
     color: white;
     margin: 10px 15% 10px 15%;
     border-radius: 10px;
-    padding: 5px;
+    padding: 2px;
 }
 
 .testo {
     font-family: Verdana;
     font-size: 15px;
-    padding: 5px;
 }
 
 .titolo-testo {
     font-family: Verdana;
     font-size: 20px;
     font-weight: bold;
-    padding: 5px;
     text-align: center;
+}
+
+.trasparente p,
+.trasparente p {
+    padding: 5px;
 }
 
 .tabella-testo {
@@ -43,6 +46,13 @@ body {
 
 .immagine-galleria {
     border-radius: 15px;
+    position: relative;
+    width: 100%;
+    opacity: 1;
+}
+
+.immagine-galleria:hover {
+    opacity: 0.5;
 }
 
 figcaption {
@@ -51,15 +61,28 @@ figcaption {
     text-align: center;
 }
 
-.immagine-galleria:hover {}
-
-.immagine-centro {
+.centro {
     display: block;
-    margin:auto;
+    margin: auto;
     border-radius: 15px;
 }
 
 #tabella-prezzi {
+    color: white;
     font-family: "Verdana";
+    border-radius: 15px;
+    border-spacing: 0px;
+    border-collapse: separate;
     text-align: center;
+    margin:auto;
+}
+
+#tabella-prezzi td,
+#tabella-prezzi th {
+    padding: 5px;
+    border: 2px solid white;
+}
+
+#tabella-prezzi tr {
+    border-radius: 10px;
 }
