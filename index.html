@@ -8,19 +8,103 @@
     <meta name="description" content="Home page del sito web dell'hotel Nonna Wanda.">
     <meta name="keywords" content="hotel, treviso, nonnawanda, wanda, albergo, natale, vacanze, capodanno">
     <link rel="stylesheet" href="stile.css">
+    <title>Home page | Hotel Nonna Wanda</title>
 </head>
 
 <body>
-    <sound autoplay loop="true">
-        <source src="sound/sottofondo.mp3" type="audio/mpeg">
-    </sound>
     <div class="trasparente">
-        <h1 class="intestazione" style="font-size:80px">Nonna wanda</h1>
-        <h4 class="intestazione" style="font-size:20px; margin-top: 5px">Hotel di treviso</h4>
+        <h1 id="intestazione" style="font-size:80px; margin-bottom: 0">Hotel Nonna Wanda</h1>
+        <h4 id="intestazione" style="font-size:20px; margin-top: 5px">La tua presenza è la cosa più preziosa!</h4>
     </div>
-    <br>
-    <div class="principale-trasparente">
-        <p>Ciao</p>
+    <table class="tabella-testo">
+        <tr>
+            <td class="trasparente">
+                <p class="titolo-testo">
+                    L'atmosfera che scalda il cuore
+                </p>
+                <p class="testo">
+                    All’Hotel Nonna Wanda, il Natale non è solo una data sul calendario, ma un profumo di cannella che
+                    si
+                    diffonde nelle sale, il crepitio del camino acceso e il piacere di ritrovarsi. Qui, la tradizione
+                    incontra
+                    l'ospitalità più autentica, per regalarvi un soggiorno dove ogni dettaglio parla di famiglia e
+                    dedizione.
+                </p>
+            </td>
+            <td class="trasparente">
+                <p class="titolo-testo" style="padding-left: 10px;">
+                    I nostri servizi:
+                </p>
+                <ul class="testo" style="margin-left: 10px;">
+                    <li>Colazione buffet</li>
+                    <li>Salotto con camino</li>
+                    <li>Connessione Wi-Fi Gratuita</li>
+                    <li>Servizio di pulizia della camera ogni giorno</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <div class="trasparente">
+        <p class="titolo-testo">Galleria</p>
+        <table class="galleria" align="center">
+            <tr>
+                <td>
+                    <figure>
+                        <img class="immagine-galleria" src="img/camera.jpg" width="300" height="200" alt="interni">
+                        <figcaption>I nostri interni</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="immagine-galleria" src="img/buffet.jpg" width="300" height="200" alt="buffet">
+                        <figcaption>Il servizio del buffet</figcaption>
+                    </figure>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="trasparente">
+        <p class="titolo-testo">La città di Treviso</p>
+
+        <p class="testo" style="padding:10px">Immergetevi nell'incanto di una delle città più autentiche e affascinanti
+            del Veneto. Spesso
+            definita la "Città Cortese" per l'ospitalità dei suoi abitanti e la raffinatezza dei suoi scorci, Treviso è
+            un mosaico di canali gorgoglianti, palazzi affrescati e piazze brulicanti di vita.
+
+            Passeggiando sotto i suoi portici medievali, scoprirete un luogo dove l'acqua è protagonista: dai mulini del
+            Canale dei Buranelli alla suggestiva Isola della Pescheria, ogni angolo racconta una storia di eleganza
+            serena e bellezza senza tempo.
+        </p>
+        <table class="galleria" align="center">
+            <tr>
+                <td>
+                    <figure>
+                        <img class="immagine-galleria" src="img/piazza.jpg" width="300" height="200" alt="interni">
+                        <figcaption>Piazza dei Signori, molto vicina al nostro hotel</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="immagine-galleria" src="img/duomo.jpg" width="300" height="200" alt="buffet">
+                        <figcaption>Il Duomo di Treviso</figcaption>
+                    </figure>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="trasparente">
+        <p class="titolo-testo">I nostri prezzi</p>
+        <table id="tabella-prezzi" border="5">
+            <tr>
+                <th>Camera suite</th>
+                <th>Camera normale</th>
+            </tr>
+            <tr>
+                <td>100€ a notte</td>
+                <td>200€ a notte</td>
+            </tr>
+        </table>
     </div>
 </body>
 

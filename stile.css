@@ -1,15 +1,8 @@
-.intestazione {
+#intestazione {
     font-family: "Comic Sans MS";
     font-weight: bold;
     text-align: center;
-    margin-bottom: 0;
-}
-
-.principale-trasparente {
-    font-family: "Verdana";
-    background-color: rgba(0,0,0,0.5);
-    color:white;
-    padding:1%
+    padding-bottom: 8px;
 }
 
 body {
@@ -17,7 +10,56 @@ body {
 }
 
 .trasparente {
-    background-color: rgba(0,0,0,0.5);
-    color:white;
-    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 10px 15% 10px 15%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.testo {
+    font-family: Verdana;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.titolo-testo {
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.tabella-testo {
+    border-spacing: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.galleria {
+    border-spacing: 10px;
+}
+
+.immagine-galleria {
+    border-radius: 15px;
+}
+
+figcaption {
+    font-family: "Verdana";
+    font-size: 13px;
+    text-align: center;
+}
+
+.immagine-galleria:hover {}
+
+.immagine-centro {
+    display: block;
+    margin:auto;
+    border-radius: 15px;
+}
+
+#tabella-prezzi {
+    font-family: "Verdana";
+    text-align: center;
 }
