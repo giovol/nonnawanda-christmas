@@ -1,3 +1,9 @@
+@media (max-width: 600px) {
+    #tabella-prezzi {
+        font-size: 12px; 
+    }
+}
+
 #intestazione {
     font-family: "Comic Sans MS";
     font-weight: bold;
@@ -5,14 +11,14 @@
     padding-bottom: 8px;
 }
 
-.body-natalizio {
+body {
     background-image: url("img/texture.jpg");
 }
 
 .trasparente {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    margin: 10px 15% 10px 15%;
+    margin: 10px 15%;
     border-radius: 10px;
     padding: 2px;
 }
@@ -48,6 +54,8 @@
     border-radius: 15px;
     position: relative;
     width: 100%;
+    max-width: 300;
+    max-height: 200;
     opacity: 1;
 }
 
@@ -86,3 +94,4 @@ figcaption {
 #tabella-prezzi tr {
     border-radius: 10px;
 }
+
